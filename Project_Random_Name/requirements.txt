@@ -1,0 +1,10 @@
+numpy
+tensorflow
+__future__
+pickle
+panda
+matplotlib.pyplot
+operator
+keras
+nltk
+wordcloud
