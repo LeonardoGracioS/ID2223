@@ -17,7 +17,7 @@ The results and the explanation of this project are available in the report.
 ## How to run it
 
 1. Download this repository.
-2. Install Tensorflow, Keras and all the other packages using the following commands : 
+2. Install Tensorflow and Keras. Since some people have issues while installing these two packages, be sure to follow these instructions in this order : 
 
 ```pip install --upgrade tensorflow
 pip install numpy scipy
@@ -26,6 +26,8 @@ pip install pillow
 pip install h5py
 pip install keras
 ```
+
+For the other packages, just use ```pip install name_package``` where name_package is the name of the package.
 
 Note : If you can not manage to install correctly Tensorflow and Keras, you can directly use google colab at : https://colab.research.google.com/
 
