@@ -1,4 +1,38 @@
 # ID2223
-Scalable Machine Learning and Deep Learning
+Repository for the ID2223 Scalable Machine Learning and Deep Learning course at KTH.
 
-This repository is related to the KTH course ID2223.
+## Description of the project 
+
+The most powerful politician in the world is the American president. That person should have the ability to speak in a proper way to affect the people. To hold a speech is one of the most important tools of politicians to communicate with the public.
+
+Donald Trump is the current president of the USA. He is known for his iconic and very "specific" speeches.
+But are they also unique? Is a neural network able to reproduce a speech that sounds like a common Donald Trump speech?
+
+This project tries to produce an artificial speech which sounds like Mr Trump. The dataset which is used is a collection of 834 speeches from 2016-2017. A special recurrent neural network called "Long Short Term Memory" (LSTM) is built using Keras. In the end, the network shall be used to see if a politician like Trump can be replaced by a machine.
+
+## Report
+
+The results and the explanation of this project is available in the report.
+
+## How to run it
+
+1. Download this repository.
+2. Install Tensorflow, Keras and all the other packages using the following commands : 
+
+'''pip install --upgrade tensorflow'''
+
+'''pip install numpy scipy'''
+'''pip install scikit-learn'''
+'''pip install pillow'''
+'''pip install h5py'''
+
+'''pip install keras'''
+
+Note : If you can not manage to install correctly Tensorflow and Keras, you can directly use google colab at : https://colab.research.google.com/
+
+3. Download the weights of the LSTM network and load them in your .ipynb file.
+4. Generate the speeches !
+
+
+
+
